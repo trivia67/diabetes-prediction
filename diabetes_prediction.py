@@ -72,11 +72,11 @@ conf_matrix = confusion_matrix(y_test_np, preds)
 roc_auc = roc_auc_score(y_test_np, preds_proba)
 
 # Print for debug
-print("🧾 Classification Report:")
+print(" Classification Report:")
 print(report)
-print("📊 Confusion Matrix:")
+print(" Confusion Matrix:")
 print(conf_matrix)
-print("📈 ROC-AUC Score:", roc_auc)
+print(" ROC-AUC Score:", roc_auc)
 
 # Save results
 try:
